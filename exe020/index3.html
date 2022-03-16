@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXEMPLO DE HOVER</title>
+<style>
+
+body{
+
+background-color: dimgray;
+
+}
+div > p {
+
+    display: none;
+}
+div:hover > p {
+color:black;
+display: block;
+background-color: rgb(255, 242, 240);
+width: 10em;
+}
+div:hover{
+color: hotpink;
+}
+
+a {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: red;
+    text-decoration: none;
+    }
+a:visited{
+    color: royalblue;
+}
+a:hover {
+    color:black;
+    
+
+}
+a:active {
+    color: red;
+}
+a::after{
+    content: "[link]";
+    text-decoration: none;
+    font-weight: lighter;
+    color: seashell;
+
+}
+</style>
+
+
+</head>
+<body>
+    <h1>HOVERS</h1>
+    <p>Passe o mouse no texto abaixo:</p>
+    <div>Passe o mouse aqui!
+        <p> SALVE SALVE FAMILIA </p>
+
+
+    </div>
+
+    <h2>Personalizando links</h2>
+    
+    <ul>
+    <li><a href="https://web.telegram.org/#/im" target="_blank">telegram </a></li>
+    <li><a href="https://web.whatsapp.com/" target="_blank">whatsapp</a></li>
+    <li><a href="https://outlook.live.com/owa/?mkt=pt-br" target="_blank">email</a></li>
+    
+
+    <p><a href="index2.html">Anterior</a></p>
+</ul>
+
+    
+</body>
+</html>

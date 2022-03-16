@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+body{
+    background-color: darkgray;
+    font-family: sans-serif;
+    text-align: justify;
+    margin: auto;
+    width: 940px;
+}
+header{
+    background-color: rgb(255, 183, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 5mm;
+    padding: 1px;
+    border: 1px black;
+    margin: none;
+    box-sizing: border-box;
+    box-shadow: 3px 2px rgba(0, 0, 0, 0.233);
+    border-radius: 20px 20px;
+ 
+
+    
+}
+p.inicio{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+
+
+}
+hr{
+    background-color: black;
+    color: black;
+    text-decoration-line: none;
+    text-align: center;
+    border: none;
+}
+hr.esquerda{
+    background-color: black;
+    color: black;
+    text-decoration-line: none;
+    text-align: center;
+    border: none;
+  
+}
+main{
+    background-color:white;
+    box-shadow: 3px 2px rgba(0, 0, 0, 0.233);
+    border-radius: 20px 0px;
+}
+a{ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    
+}
+a:hover{
+    color:red
+
+}
+a:visited{
+    text-decoration: none;
+    color: none;
+}
+h1{ text-align: center;
+    text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.534);
+
+}
+h2{ 
+   text-align:center;
+   padding: 1em 1em ;
+   margin: none;
+   
+}
+
+h2.r{ text-align: center;
+    font-size: 6mm;
+    padding: none;
+    margin: 0px 20px;
+    border: none;
+    text-align-last: auto;
+
+}  
+h3{
+    text-align: center;
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+    padding: 10px;
+    margin: 10px;
+
+}
+div{
+    padding: 6em;
+}
+
+div.up{
+    padding: 5em;
+}
+div.down{
+    padding: 1em;
+}
+a.h{
+    padding: 30px;
+    
+} 
+a.n{
+    padding: 30px;
+    
+}
+a.c{
+    padding: 30px;
+}
+
+p{ text-align: center;
+    padding: none;
+}
+p.f{
+    text-align: left;
+    text-decoration: none;
+    text-transform: capitalize;
+   
+}
+video{
+    border: black;
+    margin: 10px 0px;
+    padding: 1em 17px;
+
+
+}
+footer{
+    padding: 2px;
+    margin: 5px 0em;
+    border: 1px 1px;
+    
+    box-shadow: 3px 2px 2px rgba(0, 0, 0, 0.247);
+    background-color:white;
+    color:black;
+
+
+}
+

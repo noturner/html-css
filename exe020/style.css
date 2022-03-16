@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+body {
+background-color: antiquewhite;
+font-family: 'Courier New', Courier, monospace;
+
+
+}
+h1 {
+text-align: center;
+    color: black;
+
+}
+h2.esquerda {
+    color: blue;
+    text-align: right;
+}
+
+h2.direita{
+    color: rgb(64, 57, 70);
+    text-align: left;
+}
+.primeiro {
+    text-align: center;
+
+}
+.secundario {
+    text-align: center;
+
+}
+
+.terceiro {
+    text-align: left;
+}
+
+.quarto{
+text-align: right;
+
+}

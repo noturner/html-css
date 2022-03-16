@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+* { font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+
+body { background-image: linear-gradient( to right, #6DCEFD,#62DBE3,#78FADD,#62E3A2,#6DFD8C);
+
+}
+p {
+text-align: justify;
+}
+h1{
+
+}
